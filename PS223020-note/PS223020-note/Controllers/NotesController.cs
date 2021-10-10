@@ -104,7 +104,8 @@ namespace PS223020_note.Controllers
 
         private bool NoteExists(int id)
         {
-            return _context.Notes.Any(e => e.Id == id);
+            return _context.Notes.Any(e => e.Id == id);  
         }
+
     }
 }

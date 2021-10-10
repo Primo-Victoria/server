@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PS223020_note.Contexts;
 
+
 namespace PS223020_note
 {
     public class Startup
@@ -26,6 +27,7 @@ namespace PS223020_note
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddDbContext<NoteContext>(opt => opt.UseInMemoryDatabase("TestDB"));
             services.AddDbContext<UserContext>(opt => opt.UseInMemoryDatabase("TestDB"));
             services.AddControllers();
@@ -38,6 +40,8 @@ namespace PS223020_note
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(option => option.WithOrigins("http://localhost:8080").AllowAnyMethod());
 
             app.UseRouting();
 
