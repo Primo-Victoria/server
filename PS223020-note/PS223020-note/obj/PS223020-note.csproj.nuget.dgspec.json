@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\titov\\Documents\\GitHub\\PS223020-note\\PS223020-note\\PS223020-note\\PS223020-note.csproj": {}
+    "C:\\GitHub\\server\\PS223020-note\\PS223020-note\\PS223020-note.csproj": {}
   },
   "projects": {
-    "C:\\Users\\titov\\Documents\\GitHub\\PS223020-note\\PS223020-note\\PS223020-note\\PS223020-note.csproj": {
+    "C:\\GitHub\\server\\PS223020-note\\PS223020-note\\PS223020-note.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\titov\\Documents\\GitHub\\PS223020-note\\PS223020-note\\PS223020-note\\PS223020-note.csproj",
+        "projectUniqueName": "C:\\GitHub\\server\\PS223020-note\\PS223020-note\\PS223020-note.csproj",
         "projectName": "PS223020-note",
-        "projectPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020-note\\PS223020-note\\PS223020-note\\PS223020-note.csproj",
-        "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\titov\\Documents\\GitHub\\PS223020-note\\PS223020-note\\PS223020-note\\obj\\",
+        "projectPath": "C:\\GitHub\\server\\PS223020-note\\PS223020-note\\PS223020-note.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\server\\PS223020-note\\PS223020-note\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
