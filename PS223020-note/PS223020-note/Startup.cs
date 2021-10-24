@@ -41,7 +41,7 @@ namespace PS223020_note
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseCors(option => option.WithOrigins("http://localhost:8080").AllowAnyMethod());
+            app.UseCors(option => option.WithOrigins("http://localhost:8083").AllowAnyMethod().AllowAnyHeader());
 
             app.UseRouting();
 
